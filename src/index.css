@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base
+{
+    body
+    {
+        @apply bg-teal-900 selection:bg-amber-800 overflow-y-auto scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-teal-100 scrollbar-track-teal-800;
+
+    }
+
+}
