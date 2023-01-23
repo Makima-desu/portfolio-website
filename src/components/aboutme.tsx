@@ -1,19 +1,20 @@
 function Aboutme()
 {
     return (
-        <div className="relative text-slate-200 font-bold drop-shadow flex flex-col gap-4 p-4">
-            <div className="flex flex-col justify-center items-center place-content-center place-items-center bg-teal-800 p-4 shadow rounded">
+        <div className="relative text-slate-200 font-bold drop-shadow flex flex-col gap-4">
+            <div className="absolute -inset-0.5 bg-sky-100 blur-xl opacity-20"></div>
+            <div className="flex flex-col justify-center items-center place-content-center place-items-center bg-teal-700 p-4 shadow rounded w-56">
                 <h1 className="relative text-2xl italic">
                     <div className="absolute -inset-1 rounded bg-white/30 rotate-3"></div>
                     <div className="relative">Makima-desu</div>
                 </h1>
-                <h1 className="font-bold text-xl mt-3 flex items-center gap-2 text-rose-100 italic">
+                <div className="font-bold text-xl mt-3 flex items-center gap-2 text-rose-100 italic">
                     Canada
                     <div className="relative">
                         <img src="/maple.svg" className="w-8 rotate-6 relative"></img>
                         <div className="absolute -inset-0 bg-red-300 opacity-50 blur-lg rounded-full"></div>
                     </div>
-                </h1>
+                </div>
                 <div className="flex place-content-center place-items-center gap-4 mt-3">
                     <img src="/logo.jpg" className="rounded-full w-32 border select-none" draggable="false"></img>
                     <div className="flex flex-col gap-6">
